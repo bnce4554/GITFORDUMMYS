@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Github kezdőknek</title>
+    <link rel="stylesheet" href="gfd.css">
+</head>
+<body>
+   <div id="gt"> <h1 align="center">Mi is az a Github?</h1>
+    <caption"><h3>A Git egy verziókezelő, arra szolgál, hogy fileok (programok, dokumentációk, stb) különböző verzióit kordában tartsa, elkönyvelje, tárolja és megossza. 
+        öviden összefoglalva a Git annyit csinál, hogy amikor azt mondjuk neki (commit), akkor egy directoryról csinál magának egy helyi adatbázist a .git nevű könyvtárba. Ezekkel az adatbázisokkal
+
+- nyomon tudja követni, hogy mikor hogyan változott a könyvtárunk,
+- vissza tudja állítani bármelyik korábbi (commit-olt) állapotát a könyvtárnak,
+- szinkronizálni tud egy másik gépen levő hasonló könyvtárral, közben intelligensen átvezeti a változásokat, illetve jelez, ha nem megy neki.
+
+A Gitnek megvan az a további előnye, hogy mindezt tudja titkosított csatornán (ssh-n keresztül) csinálni, ezt fogjuk mi használni ebben a leírásban.
+
+A szemléletbeli különbség ahhoz képest ahogy eddig éltünk az, hogy a dolgaink nem akkor vannak elmentve ha megnyomtuk az editorban a save gombot, hanem csak akkor, ha a git adatbázisunkba is bekerültek (commit). A dolgok tehát röviden a következőképp fognak kinézni, mindent részletesen leírok majd alább: frissítjük a helyi adatbázisunkat a központi Szerver nevű gépéről (arra az esetre gondolva, ha valaki más továbbírta azóta, hogy láttuk; pull). Ezután dolgozunk a filejainkon. Ha eljutottunk egy olyan állapotba amit érdemes menteni, akkor megmondjuk melyik filet vegye figyelembe (add, vagy stage), majd mentjük az adatbázisba (commit). Végül pedig feltöltjük a módosított adatbázist a Szerver-re (push)
+</h3></caption>
+
+   </div>
+    <p><a href="gitfordummys_02.html"><img src="tovabb.JPG"</a></p>
+</body>
+</html>
